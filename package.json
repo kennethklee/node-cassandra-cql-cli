@@ -1,0 +1,28 @@
+{
+  "name": "cassandra-cql-cli",
+  "version": "1.0.0",
+  "description": "Cassandra CQL Command Line that uses port 9042",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kennethklee/node-cassandra-cql-cli.git"
+  },
+  "keywords": [
+    "cassandra"
+  ],
+  "author": "Kenneth Lee <kennethkl@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennethklee/node-cassandra-cql-cli/issues"
+  },
+  "homepage": "https://github.com/kennethklee/node-cassandra-cql-cli",
+  "dependencies": {
+    "cassandra-driver": "^2.0.1",
+    "optimist": "^0.6.1",
+    "prompt": "^0.2.14"
+  }
+}
