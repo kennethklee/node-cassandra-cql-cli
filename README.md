@@ -20,6 +20,7 @@ Options
 Once connected, you can type your CQL statements in the prompt.
 
 ### Example
+
 ```shell
 node index.js cas1.production.example.com
 ```
